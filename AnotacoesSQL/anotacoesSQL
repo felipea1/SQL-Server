@@ -1,0 +1,39 @@
+------------------INICIO DOS ESTUDOS SQL------------------
+O que é um banco de dados?
+R: São coleções de dados que se relacionam de forma a criar um sentido
+
+Como estes dados são organizados? 
+atráves de uma estrutura de duas dimensões (Linhas x Colunas) tabela.
+
+CTRL + SHIFT + N (Cria um novo projeto)
+
+criando um novo banco de dados -> owner = sa -> file type
+
+fazer um mapeamento dos tipos de dados que vamos guardar 
+
+fazendo a criação da tabela concessionaria
+
+data type serve para definir o tipo de dado (número letra etc). 
+
+alguns tipos de dados que vi hoje: int (inteiro - só números) varchar (texto e número) date (data) money (dado especifico para dinheiro)
+
+dbo dentro do sql server é um grupo de usuários
+
+    
+------------------MODELO RELACIONAL E NORMALIZAÇÃO DE DADOS------------------
+Uma tabela vai ser transformada ou separada em duas através da PK (Primary key) evitando redundancia 
+
+modelo segunda forma normal
+
+minimizar o máximo a redundancia de dados! 
+
+tipos de modelos:
+
+modelo descritivo: levantamento de requisitos
+
+modelo conceitual: pegar todos os requisitos e transformar em um padrão de banco de dados (é aí que se indentifica a tabela)
+
+modelo lógico: pegar o modelo conceitual e transformar ele em uma forma visual (diagrama)
+
+modelo físico: é a implementação do modelo lógico no aplicativo de gerenciador do banco de dados (SGBD)
+
