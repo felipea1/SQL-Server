@@ -35,7 +35,9 @@ modelo conceitual: pegar todos os requisitos e transformar em um padrão de banc
 
 modelo lógico: pegar o modelo conceitual e transformar ele em uma forma visual (diagrama)
 
-modelo físico: é a implementação do modelo lógico no aplicativo de gerenciador do banco de dados (SGBD)
+modelo físico: é a implementação do modelo lógico no aplicativo de gerenciador do banco de dados (SGBD).
+
+teste
 
 ------------------Apresentando o T-SQL------------------
 A Transact-SQL é uma implementação da microsoft para o sql padrão ANSI, tendo seus comandos subdivididos nos seguintes conjuntos:
