@@ -37,3 +37,30 @@ modelo lógico: pegar o modelo conceitual e transformar ele em uma forma visual 
 
 modelo físico: é a implementação do modelo lógico no aplicativo de gerenciador do banco de dados (SGBD)
 
+------------------Apresentando o T-SQL------------------
+A Transact-SQL é uma implementação da microsoft para o sql padrão ANSI, tendo seus comandos subdivididos nos seguintes conjuntos:
+DQL
+DML
+DCL
+DTL
+DDL
+
+CTRL + R = esconde a janela de mensagens
+CTRL + L = abre a janela de mensagens 
+
+/*
+
+*/ Comentário de uma ou mais linhas.
+
+-- Comentário de uma linha.
+
+CREATE DATABASE teste; / cria um banco de dados chamado "teste", lembrando que o ; é opcional.
+
+USE DATABASE teste; / usa o banco de dados "teste" acessando suas tabelas e informações.
+
+master é um banco padrão do sistema
+
+DROP DATABASE teste; / excluirá o banco de dados "teste" e lembrando que o mesmo não pode estar em uso
+
+quando excluir um banco de dados será impossível recuperar as suas informações.
+
